@@ -1,6 +1,6 @@
 // Calcola la somma dei primi 10 numeri di un array.
 
-const newArray = [3, 5, 6, 7, 4, 7, 88, -9, 0, 3, 4];
+const newArray = [3, 5, 64, -7, 4, 7, 88, -9, 0, 94, 33, 3, 4];
 
 let somma = 0;
 let arrayNum = 10;
