@@ -3,11 +3,12 @@
 // se è dispari inseriscilo nell'array.
 
 const newArray = [];
+let number;
 
 for (let i = 0; i < 6; i++) {
-    const number = parseInt(prompt("Inserisci un numero"));
+    number = parseInt(prompt("Inserisci un numero"));
     if (number % 2 != 0) {
-        console.log("number");
+        console.log(number);
     }
 }
 consol.log(number);
