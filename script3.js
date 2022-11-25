@@ -3,14 +3,25 @@
 const newArray = [3, 5, 6, 7, 4, 7, 88, -9, 0, 3, 4];
 
 let somma = 0;
+let arrayNum = 10;
+let maxNum = newArray[0];
+console.log(maxNum);
 
-for (let i = 0; i <= 10; i++) {
+for (let i = 0; i < arrayNum; i++) {
     somma += parseInt(newArray[i]);
+    if (newArray[i] > maxNum) {
+        maxNum = newArray[i];
+    }
 }
+// print somma
+console.log(somma);
+document.write("Somma " + somma);
 
-console.log(somma)
-document.write(somma);
+// print media
+let media = somma / arrayNum;
+console.log(media);
+document.write(" Media " + media);
 
-let media = somma / newArray.length -1;
-console.log(media)
-document.write(" " + media);
+// print numero più grande
+console.log("Numero più grande " + maxNum);
+document.write(" Numero più grande " + maxNum);
